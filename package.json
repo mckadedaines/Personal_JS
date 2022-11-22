@@ -1,0 +1,14 @@
+{
+  "name": "Personal_JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mckadedaines/Personal_JS.git",
+  "author": "Mckade Daines <mckadedaines1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  }
+} 

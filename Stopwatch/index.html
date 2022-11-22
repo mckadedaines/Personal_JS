@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch | JS Personal</title>
+    <link rel="stylesheet" href="../public/styles.css">
+    <title>Stopwatch | Pesonal JS Project 1</title>
 </head>
-<body>
-    
+<body className="text-center flex flex-col justify-center">
+    <main>
+        <div class="container">
+            <div class="stopwatch">
+                <div class="stopwatch__time">
+                    <span class="stopwatch__time--minutes">00</span>
+                    <span class="stopwatch__time--colon">:</span>
+                    <span class="stopwatch__time--seconds">00</span>
+                    <span class="stopwatch__time--colon">:</span>
+                    <span class="stopwatch__time--milliseconds">00</span>
+                </div>
+                <div class="stopwatch__buttons">
+                    <button class="stopwatch__buttons--start">Start</button>
+                    <button class="stopwatch__buttons--stop">Stop</button>
+                    <button class="stopwatch__buttons--reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <script src="index.js"></script>
 </body>
